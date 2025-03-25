@@ -47,12 +47,12 @@ def transcribe_and_refine(audio_file: str) -> str:
     """
     Combines transcription and GPT-based refinement for medical audio inputs.
     """
-    # Step 1: Transcribe the audio file using Whisper
+    # 1. transcribe the audio file using whisper large
     initial_transcription = transcribe_audio(audio_file)
     print("Initial Transcription:")
     print(initial_transcription)
     
-    # Step 2: Refine the transcription using GPT for medical accuracy
+    # 2. refine the transcription using LLM
     final_transcription = refine_transcription(initial_transcription)
     return final_transcription
 
