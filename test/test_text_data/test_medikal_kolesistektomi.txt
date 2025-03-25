@@ -1,0 +1,25 @@
+Hasta Adı Soyadı: Ayşe Yılmaz
+Dosya No: 12345678
+Yaş / Cinsiyet: 45 / Kadın
+Tarih: 25.03.2025
+Ameliyat Türü: Laparoskopik Kolesistektomi
+Ameliyat Ekibi:
+* Operatör: Op. Dr. Ahmet Demir
+* Asistan: Dr. Elif Koç
+* Anestezi Uzmanı: Uzm. Dr. Mehmet Yıldız
+* Sirküle Hemşire: Hatice Öztürk
+* Scrub Hemşire: Zeynep Karaman
+
+Anestezi Türü: Genel anestezi
+
+Ameliyat Süresi: 09:30 – 10:45
+
+Ameliyat Endikasyonu:
+Hastada yaklaşık 3 aydır süren sağ üst kadran ağrısı, bulantı ve hazımsızlık şikayetleri mevcuttu. Yapılan abdominal ultrasonografi sonucunda safra kesesi lümeninde multiple taşlar ve çamur izlendi. Laparoskopik kolesistektomi endikasyonu kondu.
+
+Ameliyat Tekniği:
+Hasta ameliyathaneye alındıktan sonra genel anestezi altında pozisyon verildi (supin pozisyon). Batın steril şartlarda hazırlandı ve örtüldü. Umbilikal bölgeden trokar ile girilerek pneumoperitoneum oluşturuldu. Takiben epigastrik, sağ midklavikular ve sağ anterior aksiller hatlardan 5 mm'lik trokarlar yerleştirildi. Safra kesesi fundusu grasping forceps ile tutuldu ve infundibuluma doğru disseksiyon başlatıldı. Cystic arter ve cystic kanal tanımlandı, kliplenerek kesildi. Safra kesesi disseke edilerek karaciğer yatağından ayrıldı. Tüm işlem boyunca aktif kanama olmadı. Eksize edilen safra kesesi endobag ile çıkarıldı. Batın yıkandı, hemostaz kontrolü yapıldı. Trokar yerleri kapatıldı.
+
+Ameliyat Sonucu:
+Ameliyat sorunsuz tamamlandı. Postoperatif dönemde hastanın vital bulguları stabildir. Takip amacıyla genel cerrahi servisinde yatırılması planlandı.
+
