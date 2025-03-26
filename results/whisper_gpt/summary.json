@@ -1,0 +1,44 @@
+{
+  "test_medikal_apandisit": {
+    "similarity": 0.3581,
+    "bleu": 0.7092,
+    "rougeL": 0.9084,
+    "bert_score_f1": 0.7819
+  },
+  "test_medikal_dis": {
+    "similarity": 0.8818,
+    "bleu": 0.7328,
+    "rougeL": 0.9206,
+    "bert_score_f1": 0.6608
+  },
+  "test_medikal_femur": {
+    "similarity": 0.8123,
+    "bleu": 0.7384,
+    "rougeL": 0.9235,
+    "bert_score_f1": 0.7182
+  },
+  "test_medikal_kolesistektomi": {
+    "similarity": 0.6076,
+    "bleu": 0.7196,
+    "rougeL": 0.9206,
+    "bert_score_f1": 0.5996
+  },
+  "test_medikal_lichtenstein": {
+    "similarity": 0.1693,
+    "bleu": 0.0009,
+    "rougeL": 0.1769,
+    "bert_score_f1": 0.1403
+  },
+  "test_medikal_lumpektomi": {
+    "similarity": 0.1536,
+    "bleu": 0.0341,
+    "rougeL": 0.3295,
+    "bert_score_f1": 0.1285
+  },
+  "test_medikal_tah": {
+    "similarity": 0.6511,
+    "bleu": 0.646,
+    "rougeL": 0.8717,
+    "bert_score_f1": 0.5661
+  }
+}

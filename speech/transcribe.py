@@ -23,7 +23,7 @@ def transcribe_audio(audio_file: str) -> str:
     result = model.transcribe(audio_file)
     return result["text"]
 
-def refine_transcription(transcription: str, model: str = "gemini", language: str = "tr") -> str:
+def refine_transcription(transcription: str, model: str = "gpt", language: str = "tr") -> str:
     """
     Uses the GPT API to refine the transcription with a focus on medical terminology.
     """
