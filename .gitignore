@@ -4,3 +4,5 @@ logs/server.log
 *__pycache__
 *.pyc
 *.pyo
+logs/*
+models/deepseek/

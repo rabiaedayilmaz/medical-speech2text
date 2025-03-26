@@ -106,7 +106,7 @@ def evaluate_file(file_stem: str, is_transcribe_and_refine: bool = False):
 def run_evaluation():
     all_results = {}
     for file in TEST_FILES:
-        stem, scores = evaluate_file(file, is_transcribe_and_refine=False)
+        stem, scores = evaluate_file(file, is_transcribe_and_refine=True)
         all_results[stem] = scores
 
     # save summary

@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 from utils.log import logger
 from speech.agent.gpt_model import GPTModel
 from speech.agent.gemini_model import GeminiModel
+from speech.agent.deepseek_model import DeepSeekModel
+from speech.agent.deepseek_r1_model import DeepSeekR1Model
 
 
 load_dotenv()
@@ -23,7 +25,7 @@ def transcribe_audio(audio_file: str) -> str:
     result = model.transcribe(audio_file)
     return result["text"]
 
-def refine_transcription(transcription: str, model: str = "gpt", language: str = "tr") -> str:
+def refine_transcription(transcription: str, model: str = "deepseek-r1", language: str = "tr") -> str:
     """
     Uses the GPT API to refine the transcription with a focus on medical terminology.
     """
@@ -37,6 +39,10 @@ def refine_transcription(transcription: str, model: str = "gpt", language: str =
         agent = GeminiModel()
     elif model == "gpt":
         agent = GPTModel()
+    elif model == "deepseek":
+        agent = DeepSeekModel()
+    elif model == "deepseek-r1":
+        agent = DeepSeekR1Model()
     else:
         raise ValueError(f"Unsupported model '{model}'. Please choose 'gpt' or 'gemini'.")
 
