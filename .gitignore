@@ -6,3 +6,7 @@ logs/server.log
 *.pyo
 logs/*
 models/deepseek/
+dataset/artificial_generated_turkish/dev
+dataset/artificial_generated_turkish/train
+dataset/artificial_generated_turkish/test
+dataset/artificial_generated_turkish.zip
