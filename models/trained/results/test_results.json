@@ -1,0 +1,707 @@
+{
+    "test_results": [
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3476.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3476.txt",
+            "ground_truth": "kestikleri icin is aramiyorlar is aramadiklari zaman da",
+            "prediction": "k e s ti k dgi ri c i n  i s   a r a  miyo l a r i s   a n a ma  di k la ri  z a ma n da",
+            "wer": 4.125
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3477.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3477.txt",
+            "ground_truth": "onlari issiz saymiyoruz ama bunun nedeni insanlar paraya kavustugu refaha kavustu falan",
+            "prediction": "o n  lai r  i s ti  s a y miyor r  a m  bu nu n d e d g ni   i n s a n da r p pa ra ya  k o bhu s   du r r e  p a ha ka  bu s  tu f a la",
+            "wer": 4.25
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3478.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3478.txt",
+            "ground_truth": "degil bunun nedeni insanlar is bulmaktan umitlerini kestiler ozellikle genc",
+            "prediction": "be g i u nu n n e d eg ni l i n s a n la r  i s   b u l ma k t a n  u mi t leg ri ni k e s ti l a r  o z e li k l e  g  n",
+            "wer": 5.1
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3479.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3479.txt",
+            "ground_truth": "biraz onu gecmek isterim ama once genel tabloyu soyleyeyim issizlik dusuyor",
+            "prediction": "bra z o nu   e s me k i s t e li m  a m un c e  g e n e l t a b dugu  yor  s oyliy i   i s ti z i k  du s iyo",
+            "wer": 3.727272727272727
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3480.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3480.txt",
+            "ground_truth": "mart ayi belli ki mart biliyosun koronun daha tam olarak etkilemedigi",
+            "prediction": "ma r ta  i ba i le k i  ma r t  bilyo s un  k o ro na ni n da ha  ka m o dari k i t ble mie di",
+            "wer": 3.0
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3481.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3481.txt",
+            "ground_truth": "onemli daha isyerlerinin onemli kismi acikti kafeler falan martin sonuna dogru gelmisti orada",
+            "prediction": "b ne n d e deha  i s iy a l e nu n e n bi  k a s mi  a c i k ti n  k a p e l e r  fa l a  ma r ti s o n da do g ru e i     d",
+            "wer": 3.8461538461538463
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3482.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3482.txt",
+            "ground_truth": "issizlik dusuyor dedigimiz isgucune katilm dusuyor insanlar is aramadiklari icin yani",
+            "prediction": "si z i k gu s uyo de  dig ni z  i s  bu c u ne  k a t i li m du s uyor in s a n la r   i s  a ra ma d k la ri i c i  y a ni",
+            "wer": 4.2727272727272725
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3483.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3483.txt",
+            "ground_truth": "bizim kendi sorunumuzdu o bizim ekonomik durumumuzdan kaynakli sorun corona ise bizi yerle yeksen",
+            "prediction": "bi z i m  k he n di s og ru nu mu s tuo  bi z i m  i  k o no mi k  do ru mu z d a n k  ha y n a k i o lu  k ru n a  i s a  bi zi k  y e l le ye ks a n",
+            "wer": 4.142857142857143
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3485.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3485.txt",
+            "ground_truth": "arnavutkoye iniyorum asagiya pazara cok fazla biliyorsun orada lokanta",
+            "prediction": "a nu d k  inyor ru m  ha s a  y a p  p a z a r a c o  b a z i  i y o s mu r d",
+            "wer": 3.5555555555555554
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3486.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3486.txt",
+            "ground_truth": "once gozaltina alinip daha sonra tutuklanmisti tabii ki o surecin",
+            "prediction": "c ei go z al t i n a l li k  da s onu z   k l a mi s tai  ta mi k e  o s ur ey cin",
+            "wer": 3.0
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3487.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3487.txt",
+            "ground_truth": "oyle yerler var bir mezarlik gibi orasi su anda tamamen kapali her sey",
+            "prediction": "oy le  y a r l e r v a r  bil  me z a arle p  gi buo ra s i s uor  t a ma a  d e n  k a p a l i  he r s",
+            "wer": 3.076923076923077
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3488.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3488.txt",
+            "ground_truth": "insanlar mirgun asgari ucretle calisiyorlardi ve bunlarin bir kenarda birikmis",
+            "prediction": "in s a n me r  i r g u n  a s k i iyi c i ti  c o k i s  o la t  di  b u n la r i n  bi l k e n e r d  b",
+            "wer": 4.4
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3489.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3489.txt",
+            "ground_truth": "paralari yoktu sigortasiz calistiklari icin de issizlik odemeye veya",
+            "prediction": "pa ra l i riy o k tu s i g u r ta s i  c i lri s ti k l a ri  i c i n de    i s i z i k  o  d e ni",
+            "wer": 4.333333333333333
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3490.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3490.txt",
+            "ground_truth": "issizlik maasi",
+            "prediction": "i s i zi k  ma s",
+            "wer": 3.5
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3491.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3491.txt",
+            "ground_truth": "o insanlar su anda es dost anne babanin yardimlariyla",
+            "prediction": "bu  in s a n da r s u a n da    e s  dog z  a n ni   ba b a ni n y a r di m la r  l",
+            "wer": 3.5555555555555554
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3492.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3492.txt",
+            "ground_truth": "geciniyorlar amerika birlesik devletleri nde dunyanin bir numarali ekonomisinde",
+            "prediction": "b e c in yo la r  a meg r i  k a  bi l li s i k d e l i t b irin de di y a nin  bi no marila  i  k ono mi s in de",
+            "wer": 4.555555555555555
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3493.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3493.txt",
+            "ground_truth": "yuzde yirmi bese vurmasi bekleniyor",
+            "prediction": "yu z e  y i r mi d e s ae  vu r ma s i de",
+            "wer": 3.4
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3494.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3494.txt",
+            "ground_truth": "nerelere vuracak bunu ben yirmilerin kesinlikle ustune cikilacagini",
+            "prediction": "ne r e le r a  b u r u c a k k  bu nu b e n    y i ri  mi le rin k i s ini k  s tu ne c i  ka li c a",
+            "wer": 4.875
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3495.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3495.txt",
+            "ground_truth": "ve i sin kotusu de su turkiye de daha once kemiklesmis issizlik orani yani artik bunun",
+            "prediction": "s r ey i s i  y o tu u d e s u r k de  d a c k e mi g l e s mi s  i s i zi  k o r aginai y a n  a r ti k b",
+            "wer": 2.6875
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3496.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3496.txt",
+            "ground_truth": "dusmez dedigimiz yer yuzde onlar civarindaydi adim adim bu on bire on ikiye",
+            "prediction": "du s me z d e d ig mi y a r  yu z d e  o nl a r c i va rin da y y d i  a di m a d i  bu  o bi",
+            "wer": 2.923076923076923
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3497.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3497.txt",
+            "ground_truth": "ozellikle ozel etkili mahkemelerin icerisinde kapali devre sistem vardi ve biz",
+            "prediction": "o z a k o z a l ge t kili mah k i me e ni s a s indi  k a p il d e   ri  bi s is t a n ma r di  e bi",
+            "wer": 3.5454545454545454
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3498.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3498.txt",
+            "ground_truth": "on uce tirmaniyor on ikilerde suzuluyor gibi gorunuyor ama dedigim gibi yeni bir dalga",
+            "prediction": "o nu c e  t ir ma nuiyor  o ni ki l e ri d e sk u z u liyo  gi b i   g o ru nuyor  a ma l de digi n gi bir  e ni  b i a l g",
+            "wer": 3.0
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3499.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3499.txt",
+            "ground_truth": "olursa belki yirmilere cikarsa ki hic istemeyiz gerilese gelirse bu yine on beslere",
+            "prediction": "lur s a e k yir mi lere  ci  k a r s a  k iyi ci s te me i z g e ri le s e  y e ri le s a  bu    n e",
+            "wer": 2.8461538461538463
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3500.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3500.txt",
+            "ground_truth": "belki on uclere gerileyecek ama hep boyle adim adim uzerine koyarak tipki az once",
+            "prediction": "be k i o nu s t e r e  y e r li c e  k a ma  he  boy le  a di  ma d i mu z e rin e  k o y a ra k ti  ka z onc a",
+            "wer": 3.0714285714285716
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3501.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3501.txt",
+            "ground_truth": "fiyati icin yaptigin tespit gibi oralarda akillica olacak peki ama az once",
+            "prediction": "f iya ti c in  y a p tigi n t  t e s  pi t ki b i  o ra l a r da  k a liu c u o la c a k  p ei ki a ma z o n c",
+            "wer": 3.6666666666666665
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3502.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3502.txt",
+            "ground_truth": "sozunu ettigi asgari ucretle calisan genclerin ya da kesimlerin disinda bir de",
+            "prediction": "s o z u ne  e t t t i n  a s k a ri c e t le  c a li s a n  g e n c l e ri n  y a da k e s i m l e ri n  d i s i n",
+            "wer": 4.166666666666667
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3503.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3503.txt",
+            "ground_truth": "orta gelirliler var onlar hemen islerini belki kaybetmediler ve",
+            "prediction": "o r t a  g e l ir l e r  v a r   o n l a r  h e me n  i s l e ne  be k i  k a b e t  me d l e r  v",
+            "wer": 4.666666666666667
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3504.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3504.txt",
+            "ground_truth": "kaybetmeyecekler ama eger bir ekonomik daralma yasarsak onlar da bir risk yasiyacak",
+            "prediction": "be t mi c e k d a ra ma e r v iye  ko no mi k d a r a l ma ya  s a r  s a k  o n l a r d a",
+            "wer": 3.1666666666666665
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3505.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3505.txt",
+            "ground_truth": "onlar nasil hissediyorlar kendilerini onlar hissettikleri riskte",
+            "prediction": "ro nl a rnd a  s i i s e diyorl a r k e n d e n o n la r k ih s e ti k le r i   r i s k t",
+            "wer": 5.285714285714286
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3506.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3506.txt",
+            "ground_truth": "kesinlikle haklilar simdi bir kere belki ekonomik daraligi yasiyacaz demeyelim",
+            "prediction": "k e s i ni k la k la  s i m b k e  de b e l ki i  k on mu d a ra l d ya i s il c a z   degi mi",
+            "wer": 3.8
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3507.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3507.txt",
+            "ground_truth": "kesinlikle bir ekonomik daralma yasayacagiz bunun ilk verileri zaten gelmeye basladi",
+            "prediction": "i ni k t e bire  k o no mik t a ra ln m a  y a s iy c a z   bu nu n  il k  ve ri l e li z a t a n g e l m ey a  ba s a",
+            "wer": 4.2727272727272725
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3508.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3508.txt",
+            "ground_truth": "iste tahliye talebinde bulundugunuz zaman yine ozel yetkili baska bir hakim",
+            "prediction": "is e  t ah li  t a li  bin di  bu lnu n d g nhu z a ma  yi ni  o z a  yi t kira ba s k e bir ha k im",
+            "wer": 3.090909090909091
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3509.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3509.txt",
+            "ground_truth": "benim onumde su anda perakende satis endeksi var mart ayinda bu sekiz virgul bir dusmus",
+            "prediction": "bi l me nim de s ua n da  pe r a k e n de  s a tdi s e n d i kis ti  va r  ma r t    yin da bu  s i ki z b ir gu l  b",
+            "wer": 2.8
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3510.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3510.txt",
+            "ground_truth": "sanayi uretim endeksi yedi virgul bir dusmus",
+            "prediction": "s a na  y u ri t me in de k s i  i di  bir g u l   b i r du s u c",
+            "wer": 3.5714285714285716
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3511.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3511.txt",
+            "ground_truth": "birisi bu bu dususler bize bir seyler soyluyor ne soyluyor",
+            "prediction": "di li s i bu  bu  du s u s l e r  bi z e   bi s i l e r s o y luyor   nei s ao y liyo",
+            "wer": 2.9
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3512.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3512.txt",
+            "ground_truth": "bunlar bize diyor ki bize bunlar ekonomik faaliyet cok agir bir",
+            "prediction": "bun lda rl  bi z e  d yor k i bi z e  b u n d a r      e  k o no mi kf a liye  c o k  a g r   b",
+            "wer": 3.090909090909091
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3513.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3513.txt",
+            "ground_truth": "yedi tekstil ayakkabi hazir giyim sektorunde yuzde otuzun ustunde bir",
+            "prediction": "y ie di s a  te k ti i l  a y a k  ka  b i  ha zli rl  gi n s e k t o r n du  yuz  d  o h t u z uo n u s  tu n d bi r",
+            "wer": 4.6
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3514.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3514.txt",
+            "ground_truth": "artan tek sey gida o kadar onun disinda hicbir sektorde arti bir sey yok yani kesinlikle",
+            "prediction": "a r t a n p ei k s e l   g i d a  o ka da r   o nu n di s i n da     i  c  bir s e k   or  da  a r ti bir s i yo k ya n k i s ini",
+            "wer": 2.9375
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3515.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3515.txt",
+            "ground_truth": "bunlar vuracak orta gelirliler acisindan soyle sorun var islerini",
+            "prediction": "bu na r   u ru c a   l t a  gi ldi r ler a c i s i n da n  s oylei  bi s o ru ma r k  i s l ir ni",
+            "wer": 4.0
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3516.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3516.txt",
+            "ground_truth": "isini kaybetmekten korkuyorlar ornegin benim cok",
+            "prediction": "i s i ni  k a y be t me k e n  k o r k iyo la r n i o r ne i n  bi ni c o",
+            "wer": 5.166666666666667
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3518.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3518.txt",
+            "ground_truth": "acaba cocugu alsam mi sirket boyle devam ederse bizi isten cikarir mi diye",
+            "prediction": "a c a va  s u c u  a l s a m mi  s ir ki t  bo yle  d e  va mi d e r s te    bi i i s t e n c  k",
+            "wer": 2.769230769230769
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3519.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3519.txt",
+            "ground_truth": "bu konuyla ilgili karar veriyordu ve bunun i ste o tarihlerde ozellikle sahte",
+            "prediction": "bu  k o na  ge i kgili k a r a r  bie riyor du bve  bu nu  is te  o t a rih l e r i  o z a k a s a h t i",
+            "wer": 2.769230769230769
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3520.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3520.txt",
+            "ground_truth": "korkuyor bu i nsanlar bir kere bir gun sunu soyleyeyim",
+            "prediction": "k o r k uyo   b u  in s a n d a  mi k e de  m ir  gu n  s u n s o  i li",
+            "wer": 2.8
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3521.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3521.txt",
+            "ground_truth": "normale donus dedigimiz sey krizden onceki gibi bir hayatimiz epey bir sure",
+            "prediction": "no r me li d u nu s  de d gi mi z  s s e yi  k ri z  d e n  o n c e ki ki bi  bi  ha y a ti mi z  e   p e i   bi s r",
+            "wer": 3.6666666666666665
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3522.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3522.txt",
+            "ground_truth": "olmayacak yani iki bin yirmi birin belki sonlarinda ekonomik faaliyet olarak",
+            "prediction": "o l mi c a  ya ni  i k i  bin  y i l mi  bi d i n   be l ki s o n da n de  e  k o mi k f a liy a  t o l a ra",
+            "wer": 3.727272727272727
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3523.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3523.txt",
+            "ground_truth": "soyluyorum diger seylerden bahsetmiyorum ekonomik faaliyet olarak iki bin yirmi birin",
+            "prediction": "t oyluyoru m g e r  s e y l e r de n ba s e t mi   i k o numi k    fa li ye  t  o a r a k i  k i  bi  y ir   bi zi",
+            "wer": 3.727272727272727
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3524.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3524.txt",
+            "ground_truth": "ortalari falan gibi biz belki o da bir asi ve bir ilac gercekten bulunursa bir",
+            "prediction": "o t a lai ri  f a la n g i   bi   bi z   be l k i   o da   bi r  a s u  ve  bi   l ea c  g a a c e k t e n bu l n",
+            "wer": 2.6
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3525.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3525.txt",
+            "ground_truth": "bulunmazsa hayatin normale donecegini bekleyemezsiniz cunku asi ne",
+            "prediction": "bu lu n ma z a  ha y a t im  d o r ma li  d o ne c e i ni b e k li e  me s ti t  c un k r  a s i ne",
+            "wer": 4.875
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3526.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3526.txt",
+            "ground_truth": "koruyucu ilac hasta olani tedavi ediyor biz hasta olmamak icin asi",
+            "prediction": "k o  ru  yu c u   e c  ha s do la na te d e re iyor  bi z   a s ta   o n  ma ma k k   c",
+            "wer": 2.727272727272727
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3527.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3527.txt",
+            "ground_truth": "lazim bu viruse karsi o zaman bir asi bulunmadigi surece gercek",
+            "prediction": "y a s i m   b u   iu ru s e k a r   o   z a ma n bi r  a s u    b lu n  ma di s u re i c e   e r",
+            "wer": 3.272727272727273
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3528.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3528.txt",
+            "ground_truth": "normale donustu diye bir sey olamaz ekonomide yani o fabrikalarda insanlar su an calisiyor",
+            "prediction": "n o r ma l e  d o ni s diye  bi s i   o la ma z  e k o no mi d e e n   o f f a di  k a l a r  do  in s a nda r s a n  c l s",
+            "wer": 3.357142857142857
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3529.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3529.txt",
+            "ground_truth": "biz sokaklari hepimizin dokuldugunu dusun yeniden bu patlayacak",
+            "prediction": "bi s o  k a k la ra he p i mi z in  do k ul d u nu  du s u n  y i ni d e n  bu  pa t de c a",
+            "wer": 4.375
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3530.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3530.txt",
+            "ground_truth": "deliller meselesini gundeme getirdigimiz icin oda tv",
+            "prediction": "de r il l a r me s ele s ini  gunde me  gi t ir  di mizi c ini b o di t ili",
+            "wer": 3.5714285714285716
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3531.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3531.txt",
+            "ground_truth": "elimizde cunku bir asi yok yakalanmamak icin bu asiya ihtiyacim o yuzden orta",
+            "prediction": "e li mi z d i  c u ku  bir   a s i yo k   a  k ar a n ma ma ki c  bu  a s i y e h t iy a i   o  i z d e n     r t",
+            "wer": 3.076923076923077
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3532.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3532.txt",
+            "ground_truth": "ve dar gelirliler acisindan hayat asi",
+            "prediction": "ve d a r  g i l ir l le r k  a c i s i n da n  h a y a t  a s u",
+            "wer": 4.5
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3533.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3533.txt",
+            "ground_truth": "cok zor olacak bunu da soyleyeyim bu da",
+            "prediction": "c o k z o   o la c a  bu nu   da  s o i n  bu d a",
+            "wer": 2.125
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3534.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3534.txt",
+            "ground_truth": "peki emin son olarak cok merak ettigim baska bir konu var",
+            "prediction": "pe k i e min s o n o lara k  c o k  me r a k e ti  ba s ka  bir k o nu va r",
+            "wer": 2.5454545454545454
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3535.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3535.txt",
+            "ground_truth": "aclikla karsi karsiya kalacak miyiz kastettigim de su ya tarim ne durumda su ana",
+            "prediction": "a c l li  k la k a s k a s ie k a l c a k mi z  k a st e t di m  bi s u  y a t a ri m ne  do ru mn d a s  ga n",
+            "wer": 3.2142857142857144
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3536.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3536.txt",
+            "ground_truth": "yasamadik bunun eksikligini ama tarim urunlerinde bir daralma olacak mi",
+            "prediction": "ya s a ma d a k b u nu n  e k s i k li n a  ma  t a ri mi ru n l eri n de  bir d a ra l m o g lu c a k m",
+            "wer": 4.2
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3537.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3537.txt",
+            "ground_truth": "konu benim benim sahsi",
+            "prediction": "k o nu   bie ni m   b eg ni m  s a h s i",
+            "wer": 3.75
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3538.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3538.txt",
+            "ground_truth": "seylerden biri bu neden ben krizin en basinda hemen dedim ki ben bu ulkede",
+            "prediction": "s e y l e r d e n  bi ri b u  ne d e n  de n  k ri zin  e n  ba s i n da   he m e n   le di m k   be n t b u l k",
+            "wer": 3.142857142857143
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3539.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3539.txt",
+            "ground_truth": "yonetici olsam hemen gida envanteri cikaririm hangi urunden bende ne kadar var",
+            "prediction": "yo ni ti c  og l s a n  he n e n  gi  da i  ma t e r c i  k ar   h a n n g i     r u n d e n de n d n ka   r",
+            "wer": 3.5
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3540.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3540.txt",
+            "ground_truth": "yani burda ben derken devleti kastetmiyorum sadece ozel sektor de dahil olma",
+            "prediction": "y a ni  bu n da  d e n d e   ea n d e vl e di  k a s e t m orum  s a d e c a   o z a i s e k t o r a da yil o mi",
+            "wer": 3.8333333333333335
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3541.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3541.txt",
+            "ground_truth": "bir mudahalenin oldugunu daha baslangicta tespit ettigimiz",
+            "prediction": "bir mu d a riyein o l dug nu  daha   ba s a n isc a  dei s  p le tigi i",
+            "wer": 2.857142857142857
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3542.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3542.txt",
+            "ground_truth": "bu kadar stogumuz bitti bu sene uretimi patlatmamiz lazim bugunun onemli",
+            "prediction": "nu  ka d a r s td o nm z  i k gi   mu s e  ni  u ri ti  bir  ph a t l a t mo z l z im  bu key ni n  oe n e d",
+            "wer": 3.5454545454545454
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3543.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3543.txt",
+            "ground_truth": "biriydi bilmiyorum gorebildin mi senin dikkatini cekti mi adana da polis",
+            "prediction": "bi r i i di  bi l  miyo ru m  d o yr e  bil d gi n  mi   s e ne n di  k a k d ni c e k  a d a n a  da p o",
+            "wer": 3.4545454545454546
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3544.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3544.txt",
+            "ground_truth": "bir minibusu durdurdu bu minibusun icinde on dort kisi lik minibuste otuz bes kisi vardi",
+            "prediction": "i r  mi nli  bi s u bu r dug r dugu    mi nli  bir s u c in de   o n do r  ki s i  v li k   m i n i  b i s te  o t z  be i  b a",
+            "wer": 2.933333333333333
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3545.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3545.txt",
+            "ground_truth": "bunlar tarim iscisiymis fotograf su anda benim onumde acik actim ben fotografi",
+            "prediction": "bu n d a r t a ri mi s c e s iy c   o t o r a k s  a n d  bi ni m oy ni m dia  a c i k  a c ti  de  f o t o ryo",
+            "wer": 3.75
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3546.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3546.txt",
+            "ground_truth": "otuz bes tarim iscisi degil dedigimiz tarim iscileri bunlar salvarlari ettikleri",
+            "prediction": "o t u z  be s t a ri mi s c i sz  i l d i mi z t a ri mi s  s i l i r n  ha r  s a l  va rl la r i   e t e k le ri",
+            "wer": 4.2727272727272725
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3547.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3547.txt",
+            "ground_truth": "baslari bagli tarim iscileri tarlaya gidiyorlar ve bunlarin her birine",
+            "prediction": "b a s dae ri  b a l l i t a r i mi s  c ile ri n  t a r l e ye gi dio l a r   de   b u n la r i n  h e r   bi r i n",
+            "wer": 4.6
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3548.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3548.txt",
+            "ground_truth": "para cezasi kesilmis yedi yuz seksen dokuz lira bu insanlar gunde kac lira aliyorlar sen de biliyorsun",
+            "prediction": "pa rae c e z a s i  ki s il i s s m i de d il  s e k s e n do  k i s t ira  bu  in s a n l a r  g u n die  k a c n r a liyo la r  s  n   l o",
+            "wer": 3.235294117647059
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3549.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3549.txt",
+            "ground_truth": "altmis lira ile yetmis lira tabi arasinda degisiyor bunlarin gundelikleri net olarak",
+            "prediction": "a t mi s t re y l e  ye t mi s l i r a r i r  b ra s in da  degi s yo u e r  g u n d e li k l e r e  ne t o la re",
+            "wer": 3.9166666666666665
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3550.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3550.txt",
+            "ground_truth": "bunlara yedi yuz seksen dokuz lira para ceza bunlar nereye gidiyorlardi mirgun",
+            "prediction": "un dla rai y e diu  s e ks e n u kizd ira  p a ra c e z a  bu na rl  ne reg yl gi dio l a r d i mi r g u",
+            "wer": 3.1666666666666665
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3551.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3551.txt",
+            "ground_truth": "tabii ki tarlaya gidiyorlar baska nereye gidecekler tarim iscileri minibusun on dort kisilik minibusun icinde tikismislar biliyorsun karno kasalarin icinde",
+            "prediction": "h a bi  gi  t a rle d o l a r a s   ne le  i c i k l e r  t r mi s  kc l ri  mi ri  bu s un   o n d ur  ci ir k in l  bi s tu li c i na  ti ki s mi s la r  biyo s un  k a n m on  k a s a la rin di c in de",
+            "wer": 3.7
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3552.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3552.txt",
+            "ground_truth": "artik o mahkemelerden ve o sorusturmalari yuruten cumhuriyet",
+            "prediction": "a r t i k   o mah k e me l e r da n  ve  b o  s o rui s u mala ri yru d a n  c u h li",
+            "wer": 3.75
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3553.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3553.txt",
+            "ground_truth": "tarlalara gidiyorlardi simdi minibusun icinde ve baris bunlara ceza yazdi",
+            "prediction": "p a rl a la re  gi ior la r di s im  di mi nu s unu c ine  v i   o ri s bo ndari  c e z a  y a",
+            "wer": 3.3
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3554.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3554.txt",
+            "ground_truth": "simdi bunlarin sucu ve onlar o tarlaya gitmezlerse aclar ya onlar o tarlaya",
+            "prediction": "c i m di   bu n a r  i s t r c u ni  bu naro  t a rle gi ma z e r s ta  a c la r     o a r o  a",
+            "wer": 2.6923076923076925
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3555.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3555.txt",
+            "ground_truth": "sonrada biz aciz su anda turkiye nin tarimsal uretim konusunda",
+            "prediction": "t o n a  da  bi z a c i z   s o n da  t u r k k i ni n  t a ri n s t a l   ri ti mn  k o nu u",
+            "wer": 3.8
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3556.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3556.txt",
+            "ground_truth": "bir saskinlik icerisindeydim gecici mevsimlik tarim iscileri tarlaya gidemiyorlar",
+            "prediction": "bi r s a s  k ini k  c a s in de t bi   e c i c i  mne s i m i k  ba ri mi s c il e ri  k a rl e   d gi miyo la r",
+            "wer": 4.777777777777778
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3557.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3557.txt",
+            "ground_truth": "guneydogu dan bunlarin cukurova ve ege bolgesine gelmeleri lazim onlar",
+            "prediction": "b ne  do g da n bu n da ri n  c u  k ro v a be  e g e  boyl gi s ine  g e l mi l ir l e z i m   o n a",
+            "wer": 3.9
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3558.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3558.txt",
+            "ground_truth": "duyuyorum kayitlilik kitlerin bile i stanbul dan cikisin",
+            "prediction": "du  yo ru m  k y i t di k  bu le ri n bi l e  i s ta n bu da n c i ki s",
+            "wer": 3.375
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3559.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3559.txt",
+            "ground_truth": "izin verilmiyor memleketlerine gitmesine o yuzden bu konu cok onemli bir konu",
+            "prediction": "i s i m di l i l miyor m me m i k  e k l er ne  gi  me s i n e   u yi z de  bu  k o nu  c o k   o n e r li  bir  ko nu",
+            "wer": 3.5
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3560.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3560.txt",
+            "ground_truth": "bakanin konuyu cok ciddi almasi lazim bir seyi hatirlatayim mirgun rusya fransa",
+            "prediction": "ba k a n i l i  k o nuyl t   u k c i di y a l mi s  l e zi mbu ki or  c iye  y a ha t ir l a ti yi m  i r gu n  bu i y a  p ra n zs a",
+            "wer": 4.333333333333333
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3561.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3561.txt",
+            "ground_truth": "kazakistan bunlar dunyanin buyuk tahil ihracatcilari turkiye mesela her sene yedi yuz",
+            "prediction": "ba z a ki s t a  bu n a r  b dun y a nin  b u k  ta h i  il  g a c a t  c i v a ri  tur kie  me s ey l a  he r s t e ni i du z",
+            "wer": 4.083333333333333
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3562.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3562.txt",
+            "ground_truth": "milyon dolar civarinda bugday aliyor rusya dan",
+            "prediction": "i  yo n  do la r c  v a rin da  bu da y  a li yor   bu s s iy a d a n",
+            "wer": 3.5714285714285716
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3563.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3563.txt",
+            "ground_truth": "hicbir beklentimiz kalmamisti orada cok acik bir sekilde oda tv nin iste",
+            "prediction": "is  bur be k a n t mi z k ag mo mbis t i  o r a da   c u k a c i k  bir s e ki l di  o di t iyi  vi ni s t",
+            "wer": 3.25
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3564.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3564.txt",
+            "ground_truth": "un isleyerek ihrac ediyorsunuz bunlar dahil ihracatini durdurdular simdilik",
+            "prediction": "u n  i s l e ere k  i h r a c e k yoru s o nu  bu n la r   a i  i h ra  c a t i n i   d u d r d u l a r",
+            "wer": 4.777777777777778
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3565.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3565.txt",
+            "ground_truth": "cunku kendileri de ne kadar",
+            "prediction": "c u mn k u k e n d i l e ri  de ni  k a da i",
+            "wer": 3.6
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3566.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3566.txt",
+            "ground_truth": "bir konu degil param var verir ithal ederim diyemeyebiliriz butun dunya",
+            "prediction": "bi k o nu di  p a r a   a r e i r z  i t a l  i d i ri m  b e  me y e  b l i r t u  u",
+            "wer": 3.272727272727273
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3567.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3567.txt",
+            "ground_truth": "cunku su anda corona ile ugrasiyor tarlaya oralarda da girme konusunda ciddi",
+            "prediction": "c u n k u   s u ha n da  k o ro nuo i l  o g ra s yo  ha r le y a  o r o la r da  da  g i r me  k o nu",
+            "wer": 3.25
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3568.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3568.txt",
+            "ground_truth": "var o yuzden",
+            "prediction": "ba r ounmi zi e",
+            "wer": 1.6666666666666667
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3569.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3569.txt",
+            "ground_truth": "bu faaliyetlerini serbest birakan bir takim duzenlemeler yapildi",
+            "prediction": "bu  f a li t d erin de s e r  b e s  br a k a n  br t a kaim du z a nl e me l e r ya p i l d i",
+            "wer": 4.625
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3570.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3570.txt",
+            "ground_truth": "iste sokaga cikma yasagi gunlerinde ya da sehirlerarasi",
+            "prediction": "i s ti  s o  k a ci k bma  ya s a  gu nle ri n d e   a da s e r l l e r",
+            "wer": 3.25
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3571.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3571.txt",
+            "ground_truth": "kisitlayan duzenlemede onlara bir istisna tanindi ama onun disinda",
+            "prediction": "k lay ae n  du z e ne me  de o nla ra  bir i s ti s na ta nin da ma   o nu n di s i m d a",
+            "wer": 3.4444444444444446
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3572.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3572.txt",
+            "ground_truth": "genis tarim iscileriyle ilgili tarim hasadiyla ya da tarimsal faaliyet",
+            "prediction": "g e ni s  t a ri m i s c i l e ri lie i  gi li  t a ri mha s a diy le  ya da  t a r i m  s a l f a",
+            "wer": 3.7
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3573.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3573.txt",
+            "ground_truth": "ilgili ozel bir duzenlemeye su ana kadar tanik olmadik",
+            "prediction": "g i li   o z ae bir d u z e n e mi ar  s u a n a ka d a r  t a ni  k o l ma di",
+            "wer": 3.4444444444444446
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3574.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3574.txt",
+            "ground_truth": "yayin politikasi ve diger gazetecilerin de daha cok muhalif",
+            "prediction": "y e yin   p o l i ti k a s i ve diy a r ga z i tei j li rin di  da ha c o k  mu  ha l i",
+            "wer": 3.5555555555555554
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3575.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3575.txt",
+            "ground_truth": "cok tesekkur ederim her zaman oldugu gibi butun acikligiyla sana sordugum",
+            "prediction": "c o k de s ea ki oa d e rim he vr z a mo n  l dugu  givir br tu n a  c i k liyi l a  s a na  s o r dugum",
+            "wer": 3.3636363636363638
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3576.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3576.txt",
+            "ground_truth": "sorulara cevap verdin cok sagol cok tesekkur ederim iyi yayinlar cok sagol",
+            "prediction": "s o r la ra c a a p ve r din   c o ks a l  c o kt e s e k e l e r   i y e i m e    c  k",
+            "wer": 3.0
+        },
+        {
+            "audio_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3577.wav",
+            "text_file": "/kaggle/input/turkish-speech-corpus/ISSAI_TSC_218/Test/3577.txt",
+            "ground_truth": "evet emin capayla hem kamu maliyesini konustuk gercekten bir batma riski",
+            "prediction": "e ve t   e min c a p a yl e  he n  k a m o ma liye si ni  ko nu s du k  g e c e k t e n  b ir",
+            "wer": 3.272727272727273
+        }
+    ],
+    "average_wer": 3.542279879832655,
+    "num_samples": 100,
+    "num_batches": 13
+}
