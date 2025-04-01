@@ -1,0 +1,21 @@
+{
+    "test_results": [
+        {
+            "audio_file": "/kaggle/input/medical-speech-turkish/dataset/artificial_generated_turkish/test/00131.wav",
+            "text_file": "/kaggle/input/medical-speech-turkish/dataset/artificial_generated_turkish/test/00131.txt",
+            "ground_truth": "hasta adi ahmet yildiz yas 58 cinsiyeti erkek ameliyat tarihi 22 nisan 2021 ameliyat ozeti ahmet yildiz 22 nisan 2021 tarihinde koroner arter baypas grefti (cabg) ameliyatina tabi tutuldu hastanin daha once belirtilen kronik kalp rahatsizligi nedeniyle bu operasyon yapildi operasyon 4 saat surdu ve basarili bir sekilde tamamlandi toplamda 3 adet greft yerlestirildi operasyon suresince herhangi bir komplikasyon yasanmadi operasyon sonrasi yildiz'in vital bulgulari stabil idi ancak postoperatif 2 gununde hastanin genel durumu kotulesti ve akut nefes darligi yasadi hizla yogun bakim unitesine alinan yildiz akciger odemine bagli solunum yetmezligi ve kardiyak yetmezlik belirtileri gosterdi tum mudahalelere ragmen yildiz'in genel durumu duzelmedi ve 24 nisan 2021 tarihinde vefat etti olum nedeni hastanin mevcut kronik kalp hastaligi ve bu duruma bagli gelisen akut komplikasyonlar olarak belirlendi bu durum kalp cerrahisi sonrasi nadir de olsa karsilasilan bir durumdur ve genellikle hastanin mevcut kronik hastaliklarina veya travma sonrasi komplikasyonlara baglidir ahmet yildiz'in vefati bu tur vakalarin onlenmesi ve erken tespiti icin kardiyoloji alaninda daha fazla arastirma yapilmasi gerektigini gostermektedir dr mehmet akif kardiyoloji bolumu ameliyat tarihi 22 nisan 2021",
+            "prediction": " Hasta adı Ahmet Yıldız, yaş 58 cinsiyeti erkek. Ameliyat tarihi 22 Nisan 2021. Ameliyat özeti Ahmet Yıldız, 22 Nisan 2021 tarihinde Koronel Arter bypass grefti ameliyatına tabi tutuldu. Hasta'nın daha önce belirtilen kronik kayp rahatsızlığı nedeniyle bu operasyon yapıldı. Operasyon 4 saat sürdü ve başarılı bir şekilde tamamlandı. Toplamda 3 adet greft yerleştirildi. Operasyon süresince herhangi bir komple",
+            "wer": 0.864406779661017
+        },
+        {
+            "audio_file": "/kaggle/input/medical-speech-turkish/dataset/artificial_generated_turkish/test/00132.wav",
+            "text_file": "/kaggle/input/medical-speech-turkish/dataset/artificial_generated_turkish/test/00132.txt",
+            "ground_truth": "hasta adi ahmet yildirim yas 45 cinsiyet erkek ameliyat tarihi 15 subat 2022 ameliyat notu hasta ahmet yildirim 15 subat 2022 tarihinde bize sol dizinde surekli agri ve hareket kisitliligi sikayetiyle basvurdu yapilan radyolojik incelemeler sonucunda hastanin sol dizinde ileri duzeyde osteoartrit tespit edildi hastanin kronik agrilari ve yasam kalitesindeki dusus nedeniyle total diz artroplastisi operasyonu onerildi ve hasta bu oneriyi kabul etti ameliyatta hasar goren diz eklemini cikarttik ve yerine yapay bir ekleme yerlestirdik operasyon sirasinda ve sonrasinda herhangi bir komplikasyonla karsilasmadik operasyon basariyla tamamlandi postoperatif donemde hastanin agrilari kontrol altinda kalmis hareket kabiliyeti belirgin sekilde artmistir ancak hastanin dusme ve yaralanma riski nedeniyle travmatik bir durumla karsilasmamasi icin ozel bir rehabilitasyon programina dahil edilmistir hasta 20 subat 2022 tarihinde taburcu edilmistir sonraki kontrolu 1 mart 2022 tarihinde gerceklestirilecektir dr merve aydin ortopedi ve travmatoloji uzmani",
+            "prediction": " Hastası, bu araya bir şey.",
+            "wer": 0.9854014598540146
+        }
+    ],
+    "average_wer": 0.9171974522292994,
+    "num_samples": 2,
+    "num_batches": 1
+}

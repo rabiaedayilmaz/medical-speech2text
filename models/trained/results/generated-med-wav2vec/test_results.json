@@ -1,0 +1,14 @@
+{
+    "test_results": [
+        {
+            "audio_file": "/kaggle/input/medical-speech-turkish/dataset/artificial_generated_turkish/test/00131.wav",
+            "text_file": "/kaggle/input/medical-speech-turkish/dataset/artificial_generated_turkish/test/00131.txt",
+            "ground_truth": "hasta adi ahmet yildiz yas 58 cinsiyeti erkek ameliyat tarihi 22 nisan 2021 ameliyat ozeti ahmet yildiz 22 nisan 2021 tarihinde koroner arter baypas grefti (cabg) ameliyatina tabi tutuldu hastanin daha once belirtilen kronik kalp rahatsizligi nedeniyle bu operasyon yapildi operasyon 4 saat surdu ve basarili bir sekilde tamamlandi toplamda 3 adet greft yerlestirildi operasyon suresince herhangi bir komplikasyon yasanmadi operasyon sonrasi yildiz[UNK]in vital bulgulari stabil idi ancak postoperatif 2 gununde hast",
+            "prediction": "ḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃb5ḃḃḃḃḃḃḃḃḃḃḃḃḃḃb",
+            "wer": 1.0
+        }
+    ],
+    "average_wer": 1.0,
+    "num_samples": 1,
+    "num_batches": 1
+}
