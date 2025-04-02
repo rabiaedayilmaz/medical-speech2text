@@ -3,8 +3,13 @@ from dataclasses import field
 from speech.agent.base_agent import BaseModel
 from utils.log import logger
 from speech.prompts import get_system_prompt
-
+import os
 import openai
+
+from dotenv import load_dotenv
+load_dotenv()
+
+openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 client = openai.OpenAI()
 

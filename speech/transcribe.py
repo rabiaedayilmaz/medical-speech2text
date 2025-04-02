@@ -1,19 +1,12 @@
 import whisper
 import openai
 import os
-from dotenv import load_dotenv
 from utils.log import logger
 from speech.agent.gpt_model import GPTModel
 from speech.agent.gemini_model import GeminiModel
 from speech.agent.deepseek_model import DeepSeekModel
 from speech.agent.deepseek_r1_model import DeepSeekR1Model
-
-
-load_dotenv()
-
-openai.api_key = os.environ.get("OPENAI_API_KEY")
-
-client = openai.OpenAI()
+import argparse
 
 
 def transcribe_audio(audio_file: str) -> str:
@@ -25,9 +18,9 @@ def transcribe_audio(audio_file: str) -> str:
     result = model.transcribe(audio_file)
     return result["text"]
 
-def refine_transcription(transcription: str, model: str = "deepseek-r1", language: str = "tr") -> str:
+def refine_transcription(transcription: str, model: str = "gemini", language: str = "tr") -> str:
     """
-    Uses the GPT API to refine the transcription with a focus on medical terminology.
+    Uses API to refine the transcription with a focus on medical terminology.
     """
     # Prepare a prompt instructing GPT to ensure accurate medical transcription
     prompt = (
@@ -44,7 +37,7 @@ def refine_transcription(transcription: str, model: str = "deepseek-r1", languag
     elif model == "deepseek-r1":
         agent = DeepSeekR1Model()
     else:
-        raise ValueError(f"Unsupported model '{model}'. Please choose 'gpt' or 'gemini'.")
+        raise ValueError(f"Unsupported model '{model}'. Please choose 'gpt', 'gemini', 'deepseek', or 'deepseek-r1'.")
 
     corrected_text = agent.ask(prompt, language=language)
     return corrected_text
@@ -62,10 +55,25 @@ def transcribe_and_refine(audio_file: str) -> str:
     final_transcription = refine_transcription(initial_transcription)
     return final_transcription
 
-if __name__ == "__main__":
-    audio_path = "test/test_voice_data/test_medikal_apandisit.mp3"
+def main():
+    # argument parser
+    parser = argparse.ArgumentParser(description="Transcribe and refine audio from a specified file path.")
+    parser.add_argument(
+        "--audio_path",
+        type=str,
+        default="test/test_voice_data/test_medikal_apandisit.mp3",
+        help="Path to the audio file (default: test/test_voice_data/test_medikal_apandisit.mp3)"
+    )
     
-    refined_transcript = transcribe_and_refine(audio_path)
+    # parse args
+    args = parser.parse_args()
+    
+    # call the transcription function with the provided path
+    print(f">>> transcribe_and_refine('{args.audio_path}')")
+    refined_transcript = transcribe_and_refine(args.audio_path)
     
     print("\nFinal Refined Transcript:")
     print(refined_transcript)
+
+if __name__ == "__main__":
+    main()
