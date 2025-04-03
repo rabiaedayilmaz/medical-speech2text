@@ -3,6 +3,29 @@
 ## Project Overview
 Medical Notes - Speech-to-Text is a system designed to streamline the documentation of surgical notes by converting spoken records into text and storing them digitally. This tool enables healthcare professionals to efficiently document critical information during or after surgeries, particularly in high-pressure environments like emergency procedures. The project aims to enhance the accuracy and accessibility of patient records while reducing the administrative burden on medical staff.
 
+## Quick Start
+Create and activate a virtual environment:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+Set the Python path:
+```bash
+export PYTHONPATH=.
+```
+With default settings (uses gemini model and test/test_voice_data/test_medikal_apandisit.mp3):
+```bash
+python3 speech/transcribe.py
+```
+With custom model and audio file:
+```bash
+python3 speech/transcribe.py --model gemini --audio_path /to/path/audio_file.mp3
+```
+
 ## Surgical Notes
 - [Notes used for testing](test/test_text_data)
 - [Audio files of used notes for testing](test/test_voice_data)

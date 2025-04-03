@@ -7,6 +7,7 @@ from speech.transcribe import transcribe_and_refine, transcribe_audio
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from rouge_score import rouge_scorer
 from bert_score import score as bert_score
+from jiwer import wer
 
 from utils.log import logger
 
@@ -81,6 +82,9 @@ def evaluate_file(file_stem: str, is_transcribe_and_refine: bool = False):
     P, R, F1 = bert_score([pred_clean], [gt_clean], lang="en", rescale_with_baseline=True)
     bert_f1 = F1[0].item()
 
+    # WER (Word Error Rate)
+    wer_score = wer(gt_clean, pred_clean)
+
     # save detailed result as json
     result_path = RESULTS_DIR / f"{file_stem}.json"
     with open(result_path, "w", encoding="utf-8") as f:
@@ -90,6 +94,7 @@ def evaluate_file(file_stem: str, is_transcribe_and_refine: bool = False):
             "bleu": round(bleu, 4),
             "rougeL": round(rouge_score_l, 4),
             "bert_score_f1": round(bert_f1, 4),
+            "wer": round(wer_score, 4),
             "ground_truth": ground_truth,
             "refined_transcript": pred
         }, f, ensure_ascii=False, indent=2)
@@ -101,6 +106,7 @@ def evaluate_file(file_stem: str, is_transcribe_and_refine: bool = False):
         "bleu": round(bleu, 4),
         "rougeL": round(rouge_score_l, 4),
         "bert_score_f1": round(bert_f1, 4),
+        "wer": round(wer_score, 4),
     }
 
 def run_evaluation():

@@ -64,13 +64,20 @@ def main():
         default="test/test_voice_data/test_medikal_apandisit.mp3",
         help="Path to the audio file (default: test/test_voice_data/test_medikal_apandisit.mp3)"
     )
+    parser.add_argument(
+        "--model",
+        type=str,
+        choices=["gemini", "gpt", "deepseek", "deepseek-r1"],
+        default="gemini",
+        help="Model for refining transcription (choices: gemini, gpt, deepseek, deepseek-r1; default: gemini)"
+    )
     
-    # parse args
+    # parse arguments
     args = parser.parse_args()
     
-    # call the transcription function with the provided path
-    print(f">>> transcribe_and_refine('{args.audio_path}')")
-    refined_transcript = transcribe_and_refine(args.audio_path)
+    # transcribe
+    print(f">>> transcribe_and_refine('{args.audio_path}', model='{args.model}')")
+    refined_transcript = transcribe_and_refine(args.audio_path, model=args.model)
     
     print("\nFinal Refined Transcript:")
     print(refined_transcript)

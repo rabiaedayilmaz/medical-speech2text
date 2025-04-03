@@ -1,0 +1,84 @@
+{
+    "test_results": [
+        {
+            "audio_file": "/kaggle/input/med-test-ebnchmark/test/test_voice_data/test_medikal_apandisit.mp3",
+            "text_file": "/kaggle/input/med-test-ebnchmark/test/test_text_data/test_medikal_apandisit.txt",
+            "ground_truth": "[UNK]asta [UNK]d[UNK] [UNK]oyad[UNK][UNK] [UNK]asan [UNK]emirta[UNK][UNK][UNK]osya [UNK]o[UNK] [UNK]03451[UNK][UNK][UNK][UNK]a[UNK] [UNK] [UNK]insiyet[UNK] 58 [UNK] [UNK]rkek[UNK][UNK]arih[UNK] 25[UNK]03[UNK]2025[UNK][UNK]meliyat [UNK][UNK]r[UNK][UNK] [UNK]cil [UNK]aparotomi [UNK] [UNK]pendektomi ([UNK]erfore [UNK]pandisit)[UNK][UNK]meliyat [UNK]kibi[UNK][UNK][UNK][UNK]perat[UNK]r[UNK] [UNK]p[UNK] [UNK]r[UNK] [UNK]sra [UNK]uncel[UNK][UNK] [UNK]sistan[UNK] [UNK]r[UNK] [UNK]alil [UNK]zcan[UNK][UNK] [UNK]nestezi [UNK]zman[UNK][UNK] [UNK]zm[UNK] [UNK]r[UNK] [UNK]u[UNK][UNK]e [UNK]lkan[UNK][UNK] [UNK]irk[UNK]le [UNK]em[UNK]ire[UNK] [UNK]evgi [UNK]nder[UNK][UNK] [UNK]crub [UNK]em[UNK]ire[UNK] [UNK]y[UNK]eg[UNK]l [UNK]anl[UNK][UNK][UNK][UNK]nestezi [UNK][UNK]r[UNK][UNK] [UNK]enel anestezi[UNK][UNK][UNK]meliyat [UNK][UNK]resi[UNK] 00[UNK]45 [UNK] 02[UNK]20[UNK][UNK][UNK]meliyat [UNK]ndikasyonu[UNK][UNK][UNK]asta 3 g[UNK]nd[UNK]r devam eden kar[UNK]n a[UNK]r[UNK]s[UNK][UNK] ate[UNK][UNK] kusma ve halsizlik [UNK]ikayetleri ile acil se",
+            "prediction": "5b5b5b5b5ḃḃḃḃḃḃḃḃḃḃḃḃḃḃb5ḃḃḃḃḃḃb5ḃḃb5ḃḃb5ḃḃḃb5ḃḃḃḃḃḃḃḃb5ḃḃb5b5ḃb5ḃḃḃḃḃb5b5ḃḃb5ḃb5ḃ5ḃḃḃbcḃḃb5ḃḃb",
+            "wer": 1.0,
+            "similarity_score": 0.0135,
+            "bleu": 0,
+            "rougeL": 0.0,
+            "bert_score_f1": -0.8485
+        },
+        {
+            "audio_file": "/kaggle/input/med-test-ebnchmark/test/test_voice_data/test_medikal_dis.mp3",
+            "text_file": "/kaggle/input/med-test-ebnchmark/test/test_text_data/test_medikal_dis.txt",
+            "ground_truth": "[UNK]asta [UNK]d[UNK] [UNK]oyad[UNK][UNK] [UNK]eliz [UNK]yd[UNK]n[UNK][UNK]osya [UNK]o[UNK] 2210345[UNK][UNK][UNK]a[UNK] [UNK] [UNK]insiyet[UNK] 34 [UNK] [UNK]ad[UNK]n[UNK][UNK]arih[UNK] 25[UNK]03[UNK]2025[UNK][UNK]meliyat [UNK][UNK]r[UNK][UNK] [UNK][UNK]m[UNK]l[UNK] 28 [UNK]umaral[UNK] [UNK]i[UNK]in [UNK]errahi [UNK]ksizyonu[UNK][UNK]meliyat [UNK]kibi[UNK][UNK][UNK] [UNK]errah[UNK] [UNK]r[UNK] [UNK][UNK]r[UNK] [UNK]yesi [UNK]emal [UNK]ara[UNK][UNK] [UNK]sistan[UNK] [UNK]r[UNK] [UNK]elis [UNK][UNK]rkmen[UNK][UNK] [UNK]em[UNK]ire[UNK] [UNK]layda [UNK]o[UNK][UNK][UNK] [UNK]nestezi [UNK][UNK]r[UNK][UNK] [UNK]okal anestezi (artikain [UNK] epinefrin 1[UNK]100[UNK]000)[UNK][UNK][UNK]meliyat [UNK][UNK]resi[UNK] 14[UNK]20 [UNK] 15[UNK]15[UNK][UNK][UNK]meliyat [UNK]ndikasyonu[UNK][UNK][UNK]asta[UNK] sol [UNK]st arka b[UNK]lgede a[UNK]r[UNK][UNK] bas[UNK]n[UNK] hissi ve tekrarlayan perikoronitis ataklar[UNK] [UNK]ikayetiyle ba[UNK]vurdu[UNK] [UNK]anoramik grafide sol [UNK]st 3[UNK] m",
+            "prediction": "̇b5ḃḃḃḃḃḃb5ḃḃb5ḃḃḃḃḃḃḃḃḃḃḃḃb5ḃḃḃḃḃḃḃb5ḃḃb5ḃḃḃḃḃḃ5ḃḃḃḃḃḃḃḃḃḃḃḃḃb5ḃḃb5ḃḃḃb5ḃḃḃḃḃb5b5ḃḃḃḃb",
+            "wer": 1.0,
+            "similarity_score": 0.0158,
+            "bleu": 0,
+            "rougeL": 0.0075,
+            "bert_score_f1": -0.8508
+        },
+        {
+            "audio_file": "/kaggle/input/med-test-ebnchmark/test/test_voice_data/test_medikal_femur.mp3",
+            "text_file": "/kaggle/input/med-test-ebnchmark/test/test_text_data/test_medikal_femur.txt",
+            "ground_truth": "[UNK]asta [UNK]d[UNK] [UNK]oyad[UNK][UNK] [UNK]ehmet [UNK]zer[UNK][UNK]osya [UNK]o[UNK] 1144[UNK]823[UNK][UNK]a[UNK] [UNK] [UNK]insiyet[UNK] [UNK][UNK] [UNK] [UNK]rkek[UNK][UNK]arih[UNK] 25[UNK]03[UNK]2025[UNK][UNK]meliyat [UNK][UNK]r[UNK][UNK] [UNK]inamik [UNK]al[UNK]a [UNK]idas[UNK] ile [UNK]a[UNK] [UNK]emur [UNK]oyun [UNK][UNK]r[UNK][UNK][UNK] [UNK]nar[UNK]m[UNK][UNK][UNK]meliyat [UNK]kibi[UNK][UNK][UNK] [UNK]perat[UNK]r[UNK] [UNK]p[UNK] [UNK]r[UNK] [UNK]iya [UNK]ltun[UNK][UNK] [UNK]sistan[UNK] [UNK]r[UNK] [UNK]y[UNK]a [UNK][UNK][UNK]k[UNK][UNK] [UNK]nestezi [UNK]zman[UNK][UNK] [UNK]zm[UNK] [UNK]r[UNK] [UNK]aluk [UNK]etin[UNK][UNK] [UNK]irk[UNK]le [UNK]em[UNK]ire[UNK] [UNK]eyma [UNK]eniz[UNK][UNK] [UNK]crub [UNK]em[UNK]ire[UNK] [UNK][UNK][UNK]ra [UNK][UNK]ld[UNK]z[UNK][UNK][UNK]nestezi [UNK][UNK]r[UNK][UNK] [UNK]pinal anestezi[UNK][UNK][UNK]meliyat [UNK][UNK]resi[UNK] 0[UNK][UNK]00 [UNK] 10[UNK]35[UNK][UNK][UNK]meliyat [UNK]ndikasyonu[UNK][UNK][UNK]asta d[UNK][UNK]me sonucu sa[UNK] kal[UNK]a [UNK]zerine travma ge[UNK]irmi[UNK][UNK] acil serviste yap[UNK]lan radyografid",
+            "prediction": "ḃḃḃb5ḃb5b5ḃb5ḃḃḃḃḃḃḃḃb5ḃḃḃb5ḃḃb5b5b5ḃḃḃḃḃb5ḃb5ḃḃḃḃḃb5ḃḃḃḃḃḃḃḃḃḃḃb5ḃḃb5b5ḃḃḃḃḃḃḃḃḃḃḃb5ḃḃḃb5ḃḃḃb5ḃb",
+            "wer": 1.0,
+            "similarity_score": 0.008,
+            "bleu": 0,
+            "rougeL": 0.0,
+            "bert_score_f1": -0.833
+        },
+        {
+            "audio_file": "/kaggle/input/med-test-ebnchmark/test/test_voice_data/test_medikal_kolesistektomi.mp3",
+            "text_file": "/kaggle/input/med-test-ebnchmark/test/test_text_data/test_medikal_kolesistektomi.txt",
+            "ground_truth": "[UNK]asta [UNK]d[UNK] [UNK]oyad[UNK][UNK] [UNK]y[UNK]e [UNK][UNK]lmaz[UNK][UNK]osya [UNK]o[UNK] 12345[UNK][UNK]8[UNK][UNK]a[UNK] [UNK] [UNK]insiyet[UNK] 45 [UNK] [UNK]ad[UNK]n[UNK][UNK]arih[UNK] 25[UNK]03[UNK]2025[UNK][UNK]meliyat [UNK][UNK]r[UNK][UNK] [UNK]aparoskopik [UNK]olesistektomi[UNK][UNK]meliyat [UNK]kibi[UNK][UNK][UNK] [UNK]perat[UNK]r[UNK] [UNK]p[UNK] [UNK]r[UNK] [UNK]hmet [UNK]emir[UNK][UNK] [UNK]sistan[UNK] [UNK]r[UNK] [UNK]lif [UNK]o[UNK][UNK][UNK] [UNK]nestezi [UNK]zman[UNK][UNK] [UNK]zm[UNK] [UNK]r[UNK] [UNK]ehmet [UNK][UNK]ld[UNK]z[UNK][UNK] [UNK]irk[UNK]le [UNK]em[UNK]ire[UNK] [UNK]atice [UNK]zt[UNK]rk[UNK][UNK] [UNK]crub [UNK]em[UNK]ire[UNK] [UNK]eynep [UNK]araman[UNK][UNK][UNK]nestezi [UNK][UNK]r[UNK][UNK] [UNK]enel anestezi[UNK][UNK][UNK]meliyat [UNK][UNK]resi[UNK] 0[UNK][UNK]30 [UNK] 10[UNK]45[UNK][UNK][UNK]meliyat [UNK]ndikasyonu[UNK][UNK][UNK]astada yakla[UNK][UNK]k 3 ayd[UNK]r s[UNK]ren sa[UNK] [UNK]st kadran a[UNK]r[UNK]s[UNK][UNK] bulant[UNK] ve haz[UNK]ms[UNK]zl[UNK]k [UNK]ikayetleri mevcuttu[UNK] [UNK]ap[UNK]lan abd",
+            "prediction": "̇ḃb5ḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃb5ḃḃḃḃḃḃḃḃḃḃḃḃḃb5b5ḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃb5ḃḃḃḃb5ḃb",
+            "wer": 1.0,
+            "similarity_score": 0.0148,
+            "bleu": 0,
+            "rougeL": 0.0,
+            "bert_score_f1": -0.8339
+        },
+        {
+            "audio_file": "/kaggle/input/med-test-ebnchmark/test/test_voice_data/test_medikal_lichtenstein.mp3",
+            "text_file": "/kaggle/input/med-test-ebnchmark/test/test_text_data/test_medikal_lichtenstein.txt",
+            "ground_truth": "[UNK]asta [UNK]d[UNK] [UNK]oyad[UNK][UNK] [UNK]urat [UNK]k[UNK]ay[UNK][UNK]osya [UNK]o[UNK] [UNK]5[UNK]43[UNK]21[UNK][UNK]a[UNK] [UNK] [UNK]insiyet[UNK] 3[UNK] [UNK] [UNK]rkek[UNK][UNK]arih[UNK] 25[UNK]03[UNK]2025[UNK][UNK]meliyat [UNK][UNK]r[UNK][UNK] [UNK]ol [UNK]nguinal [UNK]erni [UNK]nar[UNK]m[UNK] ([UNK]ichtenstein [UNK][UNK]ntemi)[UNK][UNK]meliyat [UNK]kibi[UNK][UNK][UNK] [UNK]perat[UNK]r[UNK] [UNK]p[UNK] [UNK]r[UNK] [UNK]urak [UNK][UNK]l[UNK][UNK][UNK][UNK] [UNK]sistan[UNK] [UNK]r[UNK] [UNK]mre [UNK]aya[UNK][UNK] [UNK]nestezi [UNK]zman[UNK][UNK] [UNK]zm[UNK] [UNK]r[UNK] [UNK]erya [UNK]en[UNK][UNK] [UNK]irk[UNK]le [UNK]em[UNK]ire[UNK] [UNK]ilek [UNK]y[UNK][UNK] [UNK]crub [UNK]em[UNK]ire[UNK] [UNK]erve [UNK]al[UNK][UNK]kan[UNK][UNK][UNK]nestezi [UNK][UNK]r[UNK][UNK] [UNK]pinal anestezi[UNK][UNK][UNK]meliyat [UNK][UNK]resi[UNK] 11[UNK]10 [UNK] 12[UNK]00[UNK][UNK][UNK]meliyat [UNK]ndikasyonu[UNK][UNK][UNK]asta[UNK] [UNK] ayd[UNK]r devam eden sol kas[UNK]k b[UNK]lgesinde [UNK]i[UNK]lik ve zaman zaman a[UNK]r[UNK] [UNK]ikayeti ile ba[UNK]vurdu",
+            "prediction": "ḃḃḃḃḃb5ḃḃḃḃb5ḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃb5ḃḃḃb5ḃḃḃḃb5ḃḃḃḃḃb5ḃb5ḃb5b5ḃḃḃḃḃḃḃḃḃb5ḃḃb",
+            "wer": 1.0,
+            "similarity_score": 0.0117,
+            "bleu": 0,
+            "rougeL": 0.0069,
+            "bert_score_f1": -0.8495
+        },
+        {
+            "audio_file": "/kaggle/input/med-test-ebnchmark/test/test_voice_data/test_medikal_lumpektomi.mp3",
+            "text_file": "/kaggle/input/med-test-ebnchmark/test/test_text_data/test_medikal_lumpektomi.txt",
+            "ground_truth": "[UNK]asta [UNK]d[UNK] [UNK]oyad[UNK][UNK] [UNK]atma [UNK]ara[UNK][UNK]osya [UNK]o[UNK] 8[UNK]45123[UNK][UNK][UNK]a[UNK] [UNK] [UNK]insiyet[UNK] 52 [UNK] [UNK]ad[UNK]n[UNK][UNK]arih[UNK] 25[UNK]03[UNK]2025[UNK][UNK]meliyat [UNK][UNK]r[UNK][UNK] [UNK]ol [UNK]eme [UNK]itlesi [UNK]ksizyonu ([UNK]umpektomi)[UNK][UNK]meliyat [UNK]kibi[UNK][UNK][UNK] [UNK]perat[UNK]r[UNK] [UNK]p[UNK] [UNK]r[UNK] [UNK]erve [UNK]ksoy[UNK][UNK] [UNK]sistan[UNK] [UNK]r[UNK] [UNK]usuf [UNK]uncel[UNK][UNK] [UNK]nestezi [UNK]zman[UNK][UNK] [UNK]zm[UNK] [UNK]r[UNK] [UNK]ylin [UNK][UNK]ne[UNK][UNK][UNK] [UNK]irk[UNK]le [UNK]em[UNK]ire[UNK] [UNK]elin [UNK]ozkurt[UNK][UNK] [UNK]crub [UNK]em[UNK]ire[UNK] [UNK]yla [UNK]ahin[UNK][UNK][UNK]nestezi [UNK][UNK]r[UNK][UNK] [UNK]enel anestezi[UNK][UNK][UNK]meliyat [UNK][UNK]resi[UNK] 10[UNK]15 [UNK] 11[UNK]05[UNK][UNK][UNK]meliyat [UNK]ndikasyonu[UNK][UNK][UNK]astan[UNK]n sol meme [UNK]st d[UNK][UNK] kadran[UNK]nda[UNK] yakla[UNK][UNK]k 2 cm [UNK]ap[UNK]nda[UNK] mobil[UNK] sert konturlu bir kitle tespit ed",
+            "prediction": "5ḃḃb5b5ḃḃḃḃḃḃḃb5ḃḃḃḃḃḃb5ḃḃb5ḃḃb5ḃḃb5ḃḃb5ḃḃḃb5ḃḃb5ḃḃḃḃb5ḃḃb5ḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃb5ḃḃḃḃḃḃb5ḃḃḃḃḃḃb5ḃḃḃḃb",
+            "wer": 1.0,
+            "similarity_score": 0.0167,
+            "bleu": 0,
+            "rougeL": 0.0,
+            "bert_score_f1": -0.823
+        },
+        {
+            "audio_file": "/kaggle/input/med-test-ebnchmark/test/test_voice_data/test_medikal_tah.mp3",
+            "text_file": "/kaggle/input/med-test-ebnchmark/test/test_text_data/test_medikal_tah.txt",
+            "ground_truth": "[UNK]asta [UNK]d[UNK] [UNK]oyad[UNK][UNK] [UNK]evim [UNK][UNK]ld[UNK]z[UNK][UNK]osya [UNK]o[UNK] [UNK]854321[UNK][UNK][UNK]a[UNK] [UNK] [UNK]insiyet[UNK] 48 [UNK] [UNK]ad[UNK]n[UNK][UNK]arih[UNK] 25[UNK]03[UNK]2025[UNK][UNK]meliyat [UNK][UNK]r[UNK][UNK] [UNK]otal [UNK]bdominal [UNK]isterektomi ([UNK][UNK][UNK])[UNK][UNK]meliyat [UNK]kibi[UNK][UNK][UNK] [UNK]perat[UNK]r[UNK] [UNK]p[UNK] [UNK]r[UNK] [UNK]ihan [UNK]zdemir[UNK][UNK] [UNK]sistan[UNK] [UNK]r[UNK] [UNK]eren [UNK]araca[UNK][UNK] [UNK]nestezi [UNK]zman[UNK][UNK] [UNK]zm[UNK] [UNK]r[UNK] [UNK]rcan [UNK]yd[UNK]n[UNK][UNK] [UNK]irk[UNK]le [UNK]em[UNK]ire[UNK] [UNK]sl[UNK] [UNK]un[UNK][UNK][UNK] [UNK]crub [UNK]em[UNK]ire[UNK] [UNK]unda [UNK]rsoy[UNK][UNK][UNK]nestezi [UNK][UNK]r[UNK][UNK] [UNK]enel anestezi[UNK][UNK][UNK]meliyat [UNK][UNK]resi[UNK] 08[UNK]30 [UNK] 10[UNK]10[UNK][UNK][UNK]meliyat [UNK]ndikasyonu[UNK][UNK][UNK]astada uzun s[UNK]redir devam eden menora[UNK]i ve pelvik a[UNK]r[UNK] mevcuttu[UNK] [UNK]ransva[UNK]inal ultrasonografi ve [UNK][UNK] de[UNK]er",
+            "prediction": "̇ḃḃḃb5ḃḃḃḃḃḃḃḃḃḃb5ḃb5ḃb5ḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃḃb5ḃḃḃḃḃḃḃḃḃḃḃb5ḃḃḃb5ḃḃḃḃḃḃḃb5ḃḃḃḃḃḃḃḃḃḃḃḃ5ḃḃḃḃḃḃḃḃḃḃb",
+            "wer": 1.0,
+            "similarity_score": 0.01,
+            "bleu": 0,
+            "rougeL": 0.0,
+            "bert_score_f1": -0.8158
+        }
+    ],
+    "average_wer": 1.0,
+    "num_samples": 7,
+    "num_batches": 4
+}
