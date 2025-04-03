@@ -27,6 +27,7 @@ python3 speech/transcribe.py --model gemini --audio_path /to/path/audio_file.mp3
 ```
 
 ## Surgical Notes
+The [GeneratedMed dataset](test/test_voice_data), containing audio recordings of my voice, is licensed under CC BY-NC 4.0. See the LICENSE file for details.
 - [Notes used for testing](test/test_text_data)
 - [Audio files of used notes for testing](test/test_voice_data)
 
@@ -54,3 +55,6 @@ Training notebooks:
 ### Generated Dataset using OpenAI Audio
 - [Whisper](models/trained/results/generated-med-whisper)
 - [Wav2Vec](models/trained/results/generated-med-wav2vec)
+
+
+All code is licensed under MIT. The dataset, containing my voice, may only be used for non-commercial research purposes with attribution to Rabia Eda Yilmaz. Contact cuteopamp@gmail.com for other uses.
