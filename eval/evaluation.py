@@ -11,6 +11,8 @@ from jiwer import wer
 
 from utils.log import logger
 
+# wer param added later
+# thats why no wer metrics in results/ folder
 
 # paths
 GROUND_TRUTH_DIR = Path("test/test_text_data")
