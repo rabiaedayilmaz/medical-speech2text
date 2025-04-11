@@ -57,4 +57,4 @@ Training notebooks:
 - [Wav2Vec](models/trained/results/generated-med-wav2vec)
 
 
-All code is licensed under MIT. The dataset, containing my voice, may only be used for non-commercial research purposes with attribution to Rabia Eda Yilmaz. Contact cuteopamp@gmail.com for other uses.
+All code is licensed under MIT. The dataset, containing my voice, may only be used for non-commercial research purposes with attribution to Rabia Eda Yilmaz. Contact edayilmxz@outlook.com for other uses.
