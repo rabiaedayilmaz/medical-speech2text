@@ -42,7 +42,7 @@ def refine_transcription(transcription: str, model: str = "gemini", language: st
     corrected_text = agent.ask(prompt, language=language)
     return corrected_text
 
-def transcribe_and_refine(audio_file: str) -> str:
+def transcribe_and_refine(audio_file: str, model: str) -> str:
     """
     Combines transcription and GPT-based refinement for medical audio inputs.
     """
@@ -52,7 +52,7 @@ def transcribe_and_refine(audio_file: str) -> str:
     print(initial_transcription)
     
     # 2. refine the transcription using LLM
-    final_transcription = refine_transcription(initial_transcription)
+    final_transcription = refine_transcription(initial_transcription, model=model)
     return final_transcription
 
 def main():
